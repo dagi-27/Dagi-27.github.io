@@ -1,0 +1,209 @@
+*{
+   box-sizing: border-box;
+   font-family: sans-serif;
+   margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background: black;
+   
+    width: 100%;
+    height: 35vh;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+
+}
+.header h1{
+    animation-name:name ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 600;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+header::first-letter{
+    color: blue;
+    font-size: 10vmin;
+}
+
+
+.navbar {
+   
+  
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 7%;
+    margin-bottom: 7%;
+
+   
+    
+}
+.navbar a{
+    
+    border: none;
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.navbar a:hover{
+    border-radius: 20px;
+   font-weight: bold;
+   font-size: large;
+   
+} 
+
+.home{
+   
+    color: black;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 13% 14%;
+   
+    
+
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+     padding: 0;
+    text-transform: capitalize;
+    text-shadow: blueviolet;
+    font-family: sans-serif;
+    
+}
+.home-content h1{
+   text-transform:capitalize ;
+   color:black;
+   font-weight: bold;
+  
+
+}
+.home h1::first-letter{
+    color:red;
+    font-size: 5vmin;
+}
+.home-content h2{
+    padding-bottom: 5px;
+
+}
+.home-content p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+span{
+    color: rgb(43, 226, 202);
+    padding-left: 10px;
+   
+}
+.social{
+    display: flex;
+    color: rgba(64, 161, 45, 0.568);
+    text-decoration: none;
+}
+
+.image{
+    padding: 7px;
+    border: 10px solid whiw
+    blue;
+    box-shadow: 0 0 60px  rgb(39, 73, 31);
+    border-radius: 20px;
+    margin-right: 5%;
+    
+}
+.image img{
+    max-width: 240px;
+    max-height: 100vh;
+    cursor: default;
+   
+    
+}
+.btn{
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 16px;
+    border: solid gray;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2%;
+    box-shadow: 0 0 25px blueviolet;
+}
+.btn:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+  
+}
+.social a{
+    background: rgb(240, 151, 36);
+    padding: 4px;
+    margin:  30px 15px 30px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  box-shadow: 0 0 10px red;
+   background: transparent;
+   border: 2px solid rgb(0, 255, 128);
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    
+}
+.social a:hover{
+    transform: scale(1.2);
+}
+.footer{
+    text-transform: capitalize;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid rgb(25, 159, 212);
+    border-radius: 20px;
+    font-weight: bold;
+    transform: 0.3s;
+    
+}
+
+.footer{
+    border: none;
+    text-transform: capitalize;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    transform: 0.3s;
+    background: skyblue;
+    padding: 15px;
+    
+}
+.copy{
+    width: 40px;
+    padding-right: 10px;
+    color: black;
+}
+
+@keyframes name {
+ from{ transform: rotateX(45deg);
+ }
+}
